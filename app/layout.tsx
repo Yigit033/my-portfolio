@@ -23,6 +23,14 @@ export const metadata: Metadata = {
   authors: [{ name: 'Yiğit Tilaver', url: 'https://github.com/Yigit033' }],
   creator: 'Yiğit Tilaver',
   publisher: 'Yiğit Tilaver',
+  icons: {
+    icon: [
+      { url: '/icon.svg' },
+    ],
+    apple: [
+      { url: '/icon.svg' },
+    ],
+  },
   openGraph: {
     type: 'website',
     locale: 'en_US',
@@ -68,6 +76,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+        <link rel="manifest" href="/manifest.json" />
+        <meta name="theme-color" content="#3b82f6" />
+      </head>
       <body className={`${inter.className} bg-gradient-to-br from-gray-900 to-black text-white min-h-screen`}>
         <Navbar />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">

@@ -1,0 +1,4 @@
+// This is a placeholder for favicon.ico
+// In a real project, you would use a proper .ico file
+// Since we can't generate binary files directly, we'll use this placeholder
+// and provide instructions for creating a proper favicon
