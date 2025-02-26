@@ -100,6 +100,17 @@ export default function Portfolio() {
             </div>
           ))}
         </div>
+        <div className="text-center mt-8">
+          <a
+            href="/projects"
+            className="px-6 py-3 bg-blue-600/20 hover:bg-blue-600/30 text-blue-400 border border-blue-500/20 rounded-lg transition-colors inline-flex items-center"
+          >
+            And More
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+            </svg>
+          </a>
+        </div>
       </div>
     </section>
   );

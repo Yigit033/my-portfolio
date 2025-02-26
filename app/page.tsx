@@ -2,10 +2,12 @@ import Hero from '../components/Hero'
 import About from '../components/About'
 import Skills from '../components/Skills'
 import Portfolio from '../components/Portfolio'
+import JsonLd from '../components/JsonLd'
 
 export default function Home() {
   return (
     <div className="space-y-24">
+      <JsonLd />
       <Hero />
       <About />
       <Skills />

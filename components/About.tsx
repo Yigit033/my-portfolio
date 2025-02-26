@@ -24,7 +24,7 @@ export default function About() {
               <div className="space-y-3">
                 <div className="flex items-center gap-3 text-gray-300">
                   <Mail className="w-5 h-5 text-blue-400" />
-                  <a href="mailto:your.email@example.com" className="hover:text-blue-400 transition-colors">
+                  <a href="mailto:yigittilaver2000@gmail.com" className="hover:text-blue-400 transition-colors">
                     yigittilaver2000@gmail.com
                   </a>
                 </div>

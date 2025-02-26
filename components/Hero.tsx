@@ -21,6 +21,12 @@ export default function Hero() {
           >
             View My Work
           </a>
+          <a
+            href="/resume"
+            className="px-6 py-3 bg-teal-600 hover:bg-teal-700 rounded-lg font-medium transition-colors text-center"
+          >
+            My Resume
+          </a>
           <div className="flex items-center gap-4 px-6 py-3 border border-gray-600 rounded-lg">
             <a
               href="https://github.com/Yigit033"

@@ -75,6 +75,18 @@ export default function ProjectsPage() {
         <h1 className="text-4xl font-bold mb-8 bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400">
           My Projects
         </h1>
+        
+        <div className="mb-8">
+          <a 
+            href="/"
+            className="inline-flex items-center px-4 py-2 bg-gray-800 rounded-lg text-gray-300 hover:text-white hover:bg-gray-700 transition-colors"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+            </svg>
+            Back to Home
+          </a>
+        </div>
 
         <div className="space-y-10">
           {allProjects.map((project, index) => (
@@ -121,21 +133,22 @@ export default function ProjectsPage() {
           ))}
         </div>
         <div className="text-center mt-10">
-                  <a
-                    href="https://github.com/Yigit033"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-blue-400 hover:text-blue-300 transition-colors"
-                  >
-                    and more...
-                  </a>
-                </div>
+          <a
+            href="https://github.com/Yigit033"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center px-6 py-3 bg-gray-800 hover:bg-gray-700 rounded-lg text-white transition-colors"
+          >
+            <Github className="w-5 h-5 mr-2" />
+            Explore All Projects on GitHub
+          </a>
+        </div>
       </div>
       {/* Footer */}
       <footer className="py-8 border-t border-gray-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center text-gray-400">
-            <p>{new Date().getFullYear()} © Yiğit Tilaver</p>
+            <p>{new Date().getFullYear()} &copy; Yiğit Tilaver</p>
           </div>
         </div>
       </footer>
