@@ -6,8 +6,8 @@ import Navbar from '../components/Navbar'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Yiğit Tilaver - AI & Machine Learning Engineer Portfolio',
-  description: 'Personal portfolio of Yiğit Tilaver, an AI and Machine Learning Engineer specializing in Python, TensorFlow, PyTorch, and Data Science.',
+  title: 'Yiğit Tilaver - AI/ML/DL/Data Science Enthusiast',
+  description: 'Personal portfolio of Yiğit Tilaver, an AI/ML/DL/Data Science Enthusiast specializing in Python, TensorFlow, PyTorch, and Data Science.',
   keywords: [
     'Yiğit Tilaver', 
     'Portfolio', 
@@ -36,8 +36,8 @@ export const metadata: Metadata = {
     locale: 'en_US',
     url: 'https://yigittilaver.dev',
     siteName: 'Yiğit Tilaver Portfolio',
-    title: 'Yiğit Tilaver - AI & Machine Learning Engineer',
-    description: 'Personal portfolio of Yiğit Tilaver, an AI and Machine Learning Engineer specializing in Python, TensorFlow, PyTorch, and Data Science.',
+    title: 'Yiğit Tilaver - AI/ML/DL/Data Science Enthusiast',
+    description: 'Personal portfolio of Yiğit Tilaver, an AI/ML/DL/Data Science Enthusiast specializing in Python, TensorFlow, PyTorch, and Data Science.',
     images: [
       {
         url: '/projects/profile-photo.jpg',
@@ -49,8 +49,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Yiğit Tilaver - AI & Machine Learning Engineer',
-    description: 'Personal portfolio of Yiğit Tilaver, an AI and Machine Learning Engineer specializing in Python, TensorFlow, PyTorch, and Data Science.',
+    title: 'Yiğit Tilaver - AI/ML/DL/Data Science Enthusiast',
+    description: 'Personal portfolio of Yiğit Tilaver, an AI/ML/DL/Data Science Enthusiast specializing in Python, TensorFlow, PyTorch, and Data Science.',
     images: ['/projects/profile-photo.jpg'],
     creator: '@yigittilaver',
   },

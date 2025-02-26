@@ -13,12 +13,12 @@ export default function JsonLd() {
       'https://github.com/Yigit033',
       'https://www.linkedin.com/in/yigittilaver/',
     ],
-    jobTitle: 'AI & Machine Learning Engineer',
+    jobTitle: 'AI/ML/DL/Data Science Enthusiast',
     worksFor: {
       '@type': 'Organization',
       name: 'Istanbul Technical University',
     },
-    description: 'AI and Machine Learning Engineer specializing in Python, TensorFlow, PyTorch, and Data Science',
+    description: 'AI/ML/DL/Data Science Enthusiast specializing in Python, TensorFlow, PyTorch, and Data Science',
     knowsAbout: [
       'Artificial Intelligence',
       'Machine Learning',
