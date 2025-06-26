@@ -36,41 +36,41 @@ const allProjects: ProjectItem[] = [
     description: "A Python-based, diabetes prediction pipeline leveraging Scikit-learn, Pandas, and Numpy for data preprocessing, machine learning model training, and evaluation, utilizing various ML algorithms for accurate predictions.",
     technologies: ["Python", "Scikit-Learn", "Pandas", "Numpy", "Matplotlib", "Scikit-learn", "ML Algorithms"],
     image: "/projects/diabestes.jpg",
-    link: "https://github.com/Yigit033/AI-Powered-Image-Video-Processing-System"
+    link: "https://github.com/Yigit033/diabetes_ML_pipeline"
   },
   {
     title: "Top Spotify Podcast Episodes",
     description: "This project analyzes Spotify's top podcasts using Python, employing technologies like CatBoost for regression, along with NumPy, Pandas, and SHAP for data processing and model interpretation.",
     technologies: ["Python", "CatBoost", "Pandas", "Numpy", "Matplotlib", "SHAP", "Scikit-Learn"],
     image: "/projects/spotify.jpg",
-    link: "https://github.com/Yigit033/AI-Powered-Image-Video-Processing-System"
+    link: "https://github.com/Yigit033/top_spotify_podcast_episodes"
   },
   {
     title: "Voice-Controlled Weather Assistant",
     description: "The project is a voice assistant built with Python, utilizing SpeechRecognition, gTTS, and spaCy for natural language processing, providing real-time weather updates via an external API.",
     technologies: ["Python", "SpeechRecognition", "gTTS", "spaCy", "Python-Weather-API"],
     image: "/projects/weather.jpg",
-    link: "https://github.com/Yigit033/AI-Powered-Image-Video-Processing-System"
+    link: "https://github.com/Yigit033/voice_assistant"
   },
   {
     title: "Financial AI Assistant",
     description: "The project focuses on developing a financial AI assistant using Python, incorporating machine learning techniques to answer financial queries and provide insights into financial markets for user decision-making.",
     technologies: ["Python", "TensorFlow", "mplfinance ", "Pandas", "Neuralintents", "Matplotlib"],
     image: "/projects/finance.jpg",
-    link: "https://github.com/Yigit033/AI-Powered-Image-Video-Processing-System"
+    link: "https://github.com/Yigit033/financial-ai-assistant"
   },
   {
     title: "Stock Assistant with NLP",
     description: "The project leverages Python, YFinance, and Hugging Face for stock data analysis and recommendations, utilizing natural language processing techniques to enhance stock assistant functionalities.",
     technologies: ["Python", "yfinance", "Hugging Face", "Scikit-learn", "NLTK"],
     image: "/projects/stock.jpg",
-    link: "https://github.com/Yigit033/AI-Powered-Image-Video-Processing-System"
+    link: "https://github.com/Yigit033/stock_assistants_with_NLP"
   },
   {
     title: "Matematik Macerası",
     description: "For kids: • Fun math games • Cute characters • Daily tasks • And many more great features..",
     technologies: ["Kotlin", "Android Studio", "Java"],
-    image: "/projects/matematik_macerasi.png",
+    image: "/projects/matematik_macerası.jpeg",
     link: "https://play.google.com/store/apps/details?id=com.yigit033.matematikmacarasi"
   }
 ];
