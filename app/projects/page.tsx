@@ -70,7 +70,7 @@ const allProjects: ProjectItem[] = [
     title: "Matematik Macerası",
     description: "For kids: • Fun math games • Cute characters • Daily tasks • And many more great features..",
     technologies: ["Kotlin", "Android Studio", "Java"],
-    image: "/projects/matematik_macerası.jpeg",
+    image: "/projects/matematik_macerası.jpg",
     link: "https://play.google.com/store/apps/details?id=com.yigit033.matematikmacarasi"
   }
 ];
