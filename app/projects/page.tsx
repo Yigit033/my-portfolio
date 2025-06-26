@@ -65,6 +65,13 @@ const allProjects: ProjectItem[] = [
     technologies: ["Python", "yfinance", "Hugging Face", "Scikit-learn", "NLTK"],
     image: "/projects/stock.jpg",
     link: "https://github.com/Yigit033/AI-Powered-Image-Video-Processing-System"
+  },
+  {
+    title: "Matematik Macerası",
+    description: "For kids: • Fun math games • Cute characters • Daily tasks • And many more great features..",
+    technologies: ["Kotlin", "Android Studio", "Java"],
+    image: "/projects/matematik_macerasi.png",
+    link: "https://play.google.com/store/apps/details?id=com.yigit033.matematikmacarasi"
   }
 ];
 
